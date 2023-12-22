@@ -1,15 +1,17 @@
 {
   "name": "ali-calc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "./index.js",
+  "bin": {
+    "ali-calc": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ali Mughal",
   "license": "ISC",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
