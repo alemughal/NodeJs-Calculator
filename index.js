@@ -82,7 +82,7 @@ async function askAgain() {
             {
                 type: "input",
                 name: "restart",
-                message: "Do you want to perform another operation? "
+                message: chalk.yellow("Do you want to perform another operation? ")
             }
         ]);
     } while (again.restart.toLowerCase() === "yes" || again.restart.toLowerCase() === "y");
